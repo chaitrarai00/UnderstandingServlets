@@ -16,7 +16,8 @@ import javax.servlet.http.HttpSession;
 /**
  * Servlet implementation class LoginServlet
  */
-@WebServlet(description = "A servlet Page for logging in", 
+@WebServlet(name="login",
+		description = "A servlet Page for logging in", 
 		urlPatterns = { "/LoginServlet" },
 		initParams = {
 				@WebInitParam(name="user", value="Chai"),
