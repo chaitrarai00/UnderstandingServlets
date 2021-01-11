@@ -9,4 +9,9 @@ set it as attriobute for other servlets. We configure db details in deployment d
 5. In case of errors user should be presented with valid and useful error page. Make use of servlet exception handling.
 6. on successful login the user is forwarded to home.jsp by creating a session for the user. home.jsp will protray information about the user. jsp is visible only with valid user session
 7. user hom page also provides a logout page. where session is invalidated. rather than keeping session validation in all resources, we create Servlet Filter for session validation.
+
+
+
+
+**********************************************************************************************************************************************************
 references: https://www.journaldev.com
